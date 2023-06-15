@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Misfit Games · Games for All</title>
+	<link href="style.css" rel="stylesheet">
+
+</head>
+	
+<body>
+	
+	<!-- main header and navigation-->
+	<header>
+		<div class="logo">
+			<img src="assets/logo.png" alt="Misfit Games Logo">
+		</div>
+		<nav class="main-navigation">
+			<a href="home.html">home</a>	
+			<a href="home.html">shop</a>
+			<a href="#">about</a>
+			<a href="#">contact</a>
+		</nav>
+	</header>
+	
+	<div class="cart-body">	
+		<div class="cart-right">
+			
+			<div class="list-header">
+				<h2 class="category">Shopping Cart</h2>
+			</div>
+
+			<!-- shopping cart items-->
+			<div class="cart-list">
+				<div class="cart-listing">
+					<div class="cart-listing-left">
+						<div class="item-name in-cart">Scrabble</div>
+						<div class="item-category in-cart">Board Game</div>
+					</div>
+					<div class="cart-listing-right">
+						<div class="item-quantity in-cart">
+							<form>
+								<input class="field item-q" type="text" id="item-q-1" value="1">
+							</form>
+						</div>
+						<div class="item-cost in-cart">x $34.99</div>
+						<div class="item-delete in-cart">X</div>
+					</div>
+				</div>
+				<div class="cart-listing">
+					<div class="cart-listing-left">
+						<div class="item-name in-cart">Monopoly</div>
+						<div class="item-category in-cart">Board Game</div>
+					</div>
+					<div class="cart-listing-right">
+						<div class="item-quantity in-cart">
+							<form>
+								<input class="field item-q" type="text" id="item-q-2" value="2">
+							</form>
+						</div>
+						<div class="item-cost in-cart">x $49.99</div>
+						<div class="item-delete in-cart">X</div>
+					</div>
+				</div>
+				<div class="cart-listing">
+					<div class="cart-listing-left">
+						<div class="item-name in-cart">Ticket to Ride</div>
+						<div class="item-category in-cart">Board Game</div>
+					</div>
+					<div class="cart-listing-right">
+						<div class="item-quantity in-cart">
+							<form>
+								<input class="field item-q" type="text" id="item-q-3" value="1">
+							</form>
+						</div>
+						<div class="item-cost in-cart">x $59.99</div>
+						<div class="item-delete in-cart">X</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- totals and calculations -->
+			<div class="cart-totals">
+				<table class="cart-totals-table">
+					<tr class="cart-totals-row">
+						<td class="cart-total-cell">Subtotal</td>
+						<td class="cart-total-cell">$194.96</td>
+					</tr>
+					<tr class="cart-totals-row">
+						<td class="cart-total-cell">Tax (5%)</td>
+						<td class="cart-total-cell">$9.74</td>
+					</tr>
+					<tr class="cart-totals-row grand-total">
+						<td class="cart-total-cell">Total</td>
+						<td class="cart-total-cell">$204.70</td>
+					</tr>
+				</table>
+			</div>
+		</div>	
+	
+		<!-- payment form -->
+		<div class="cart-left">
+			<div class="list-header">
+				<h2 class="category">Payment &amp; Shipping</h2>
+				<div class="payment-form">
+				  <form>
+					  <div class="form-row">
+						  <label class="payment-label" for="name">Full Name</label>
+						  <input class="payment-field" type="text" id="name">
+					  </div>
+					  <div class="form-row">
+						  <label class="payment-label" for="address">Street Address</label>
+						  <input class="payment-field" type="text" id="address">
+					  </div>
+					  <div class="form-row">
+						  <label class="payment-label" for="postal-code">Postal Code</label>				  
+						  <input class="payment-field field-half" type="text" id="postal-code">
+						  <label class="payment-label label-half" for="province">Province</label>	  
+						  <input class="payment-field field-half" type="text" id="province">
+					  </div>
+					  <div class="form-row">
+						  <label class="payment-label" for="cc-num">Card Number</label>				  
+						  <input class="payment-field" type="text" id="cc-num">
+					  </div>
+					  <div class="form-row">
+						  <label class="payment-label" for="expires">Expires</label>	  
+						  <input class="payment-field field-half" type="text" id="expires">
+						  <label class="payment-label label-half" for="csc">CSC</label>				  
+						  <input class="payment-field field-half" type="text" id="csc">
+					  </div>
+					  <div class="form-row">
+						  <label class="payment-label">Shipping</label>
+						  <input class="payment-radio" type="radio" id="ship">
+						  <label class="payment-label" for="ship">Ship to address</label>
+						  <input class="payment-radio" type="radio" id="pickup">
+						  <label class="payment-label" for="pickup">In-store pick-up</label>
+					  </div>
+					  <button type="submit" id="submit-payment">Submit Order</button>
+				  </form>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- footer -->
+	<footer>
+		<div class="footer-left">
+			<nav class="footer-nav">
+				<a href="home.html">home</a>	
+				<a href="home.html">shop</a>
+				<a href="#">about</a>
+				<a href="#">contact</a>
+			</nav>
+		</div>
+		<div class="footer-right">
+			<img class="footer-logo" src="assets/logo-white.png" alt="Misfit Games Logo">
+		</div>
+	
+	</footer>
+	
+</body>
