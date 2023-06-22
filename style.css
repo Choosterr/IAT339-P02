@@ -29,13 +29,15 @@ h1 {
 }
 
 h2 {
+	font-size:2rem;
 	color:#EF476F;
 	text-transform:uppercase;
 	margin-top:4rem;
 }
 
 h3{
-	color:#EF476F;
+	font-size:2rem;
+	color:black;
 }
 
 h4 {
@@ -107,6 +109,13 @@ button:hover{
 }
 
 input[type=text]{
+	border:#aaa 1px solid;
+	border-radius:0.25rem;
+	padding:0.5rem;
+	font-family: "omnes-pro", sans-serif;
+}
+
+select{
 	border:#aaa 1px solid;
 	border-radius:0.25rem;
 	padding:0.5rem;
@@ -535,6 +544,99 @@ p.style-guide {
 	width:35rem;
 }
 
+div.product-page{ 
+	margin-top:5rem;
+
+	
+}
+
+div.product-images {
+	padding:0.5rem;
+	text-align: center;
+
+}
+
+img.product-img-main {
+	display:inline-block;
+}
+
+img.product-img-secondary{
+	width:40%;
+	display:inline-block;
+}
+
+div.product-details{
+	text-align: center;
+	padding:0 2rem;
+}
+
+p.product-description{
+	text-align: left;
+}
+
+span.product-price{
+	font-weight: bold;
+	font-size:1.25rem;
+}
+
+button.item-addcart-large {
+	display:block;
+	width:100%;
+	color:#ffffff;
+	padding:0.5rem;
+	border-radius:0.5rem;
+	background-color:#EF476F;
+	transition: background-color 0.2s;
+	margin:0.5rem 0;
+}
+
+button.item-addcart-large:hover {
+	background-color:#D03D60;
+	transition: background-color 0.2s;
+
+}
+
+div.rating-star {
+	display:inline-block;
+	width:0.75rem;
+	height:0.75rem;
+	border:0.1rem #EF476F solid;
+	border-radius: 0.75rem;
+	background-color:#EF476F;
+	margin:0.025rem;
+}
+
+div.rating-star.rating-star-false{
+	background-color:#ffffff;
+}
+
+span.rating-count{
+	display:block;
+	color:#555;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:0.8rem;
+	margin-bottom:1rem;
+}
+
+div.review{
+	text-align: left;
+}
+
+div.form-line{
+	display:block;
+	padding:0.5rem;
+}
+
+label.review-label{
+	display:inline-block;
+	padding-right:1rem;
+	width:5rem;
+}
+
+input#review-text {
+	width:auto;
+}
 
 @media only screen and (min-width:960px){
 	
@@ -577,6 +679,30 @@ p.style-guide {
 	h2.category {
 		text-align: left;
 		margin-top:1rem;
+	}
+	
+	div.product-page{
+		display:flex;
+		max-width:1250px;
+		padding:2.5rem 5rem;
+		margin:auto;
+	}
+	
+	div.product-images{
+		max-width:600px;
+		
+	}
+	
+	div.product-details{
+		text-align: left;
+		min-width:25rem;;
+	}
+	
+	div.review{
+		background-color:#eeeeee;
+		padding:1rem 2rem;
+		border-radius:1rem;
+		margin-top:2rem;
 	}
 
 }
