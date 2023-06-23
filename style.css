@@ -127,11 +127,11 @@ select{
 div.feature-product{
 	margin: 2rem;
 	border-radius: 5rem;
+	position: relative;
 	
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 img.feature-img {
@@ -145,9 +145,9 @@ img.feature-img:hover {
 
 div.feature-product button.feature-name{
 	position:absolute;
-	top: 10rem;
-	left: 10rem;
-	
+	top: 5rem;
+	left: 5rem;
+	transform: scale(1.2);
 }
 /*
 button.feature-name {
