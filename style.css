@@ -157,11 +157,19 @@ img.item-image{
 	margin-bottom:1rem;
 }
 
+img.item-image:hover{
+	opacity: 50%;
+}
+
 div.item-name {
 	font-weight:bold;
 	font-size:1.5rem;
-
 }
+
+div.item-name>a {
+	text-decoration:none;
+	color:#000000;
+	}
 
 div.staffpick {
 	background-color:#FFE347;
