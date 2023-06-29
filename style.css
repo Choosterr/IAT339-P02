@@ -19,8 +19,9 @@ input.field {
 /* MAIN STYLES */
 
 
-h2.category {
+h2.category, h3.category {
 	text-align: center;
+	margin-top:2rem;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h2 {
 }
 
 h3{
+	margin-top:0;
 	font-size:2rem;
 	color:black;
 }
@@ -684,7 +686,7 @@ input#review-text {
 		margin:auto;
 	}
 	
-	h2.category {
+	h2.category, h3.category {
 		text-align: left;
 		margin-top:1rem;
 	}
@@ -704,6 +706,11 @@ input#review-text {
 	div.product-details{
 		text-align: left;
 		min-width:25rem;;
+	}
+	
+	span.product-company{
+		font-size:1rem;
+		color:#888	;
 	}
 	
 	div.review{
