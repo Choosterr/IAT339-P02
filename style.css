@@ -510,6 +510,74 @@ img.footer-logo {
 	width:15rem;
 }
 
+/*About Us Page*/
+img.aboutus_banner {
+	max-width: 100%;
+	max-height: 35rem;
+}
+
+div.aboutus_copy {
+	padding:2rem 5rem 0 5rem;
+	max-width:50rem;
+	margin-top:2.5rem;
+	margin:auto;
+	text-align: center;
+}
+
+div.aboutus_copy_bottom {
+	max-width:50rem;
+	margin:auto;
+	text-align: center;
+}
+
+div.line {
+	margin: 3rem auto;
+	max-width: 40rem;
+	display: block;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 20px;
+}
+
+/*Contact Us Page*/
+div.info_box{
+	border-style: solid;
+	width: 35rem;
+	max-height: 10rem;
+	padding-top: 1rem;
+	text-align: center;
+	border-radius: 1rem;
+}
+
+div.info_box_email:hover h3.email_colour_change {
+	color:#EF476F;
+}
+
+div.info_box_address:hover h3.address_colour_change{
+	color:#EF476F;
+}
+
+div.contactus_container {
+	padding:3rem 5rem 0 5rem;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+div.contact_support_container{
+	padding-top: 2rem;
+	max-width: 1250px;
+	margin:0 auto;
+	display:flex;
+}
+
+input.payment-large-field{
+	display:inline-block;
+	margin-top:1rem;
+	width:35rem;
+	height:15rem;
+}
+
 /* STYLE GUIDE*/
 p.main-font {
 	font-family: "citrus-gothic-solid", "Impact", sans-serif;
