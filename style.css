@@ -134,6 +134,7 @@ div.feature-product{
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 img.feature-img {
@@ -147,16 +148,11 @@ img.feature-img:hover {
 
 div.feature-product button.feature-name{
 	position:absolute;
-	top: 5rem;
-	left: 5rem;
+	top: 20%;
+	left: 13%;
 	transform: scale(1.2);
+	text-decoration: underline;
 }
-/*
-button.feature-name {
-	
-	
-}*/
-
 
 div.product-list {
 	margin-top:2rem;
@@ -526,7 +522,7 @@ img.aboutus_banner {
 	max-height: 35rem;
 }
 
-div.aboutus_copy, div.citaions {
+div.aboutus_copy {
 	padding:2rem 5rem 0 5rem;
 	max-width:50rem;
 	margin-top:2.5rem;
