@@ -498,6 +498,10 @@ div.footer-right{
 	flex-grow: 1;
 }
 
+div.footer-center{
+	flex-grow: 2;
+}
+
 nav.footer-nav {
 	text-align:left;
 }
@@ -522,7 +526,7 @@ img.aboutus_banner {
 	max-height: 35rem;
 }
 
-div.aboutus_copy {
+div.aboutus_copy, div.citaions {
 	padding:2rem 5rem 0 5rem;
 	max-width:50rem;
 	margin-top:2.5rem;
