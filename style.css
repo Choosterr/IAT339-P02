@@ -205,6 +205,12 @@ div.item-name>a {
 	color:#000000;
 	}
 
+div.item-name:hover {
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:1.5rem;
+}
+
 div.staffpick {
 	background-color:#FFE347;
 	color:#000000;
