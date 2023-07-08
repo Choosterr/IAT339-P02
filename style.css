@@ -105,6 +105,11 @@ button {
 	transition: background-color 0.2s;
 }
 
+button>a{
+	color:white;
+	text-decoration:none;
+}
+
 button:hover{
 	background-color:#D03D60;
 	transition: background-color 0.2s;
@@ -146,12 +151,19 @@ img.feature-img:hover {
 
 }
 
-div.feature-product button.feature-name{
+div.feature-body{
 	position:absolute;
+	width:100%;
 	top: 20%;
-	left: 13%;
-	transform: scale(1.2);
-	text-decoration: underline;
+	text-align: center;
+}
+
+p.feature-text{
+	font-family: "citrus-gothic-solid", "Impact", sans-serif;
+	color:white;
+	font-size:2.5rem;
+	text-shadow: 0.3rem 0.3rem 0.1rem black;
+	margin-bottom: 0;
 }
 
 div.product-list {
@@ -518,10 +530,6 @@ img.footer-logo {
 }
 
 /*About Us Page*/
-img.aboutus_banner {
-	max-width: 100%;
-	max-height: 35rem;
-}
 
 div.aboutus_copy {
 	padding:2rem 5rem 0 5rem;
@@ -531,20 +539,6 @@ div.aboutus_copy {
 	text-align: center;
 }
 
-div.aboutus_copy_bottom {
-	max-width:50rem;
-	margin:auto;
-	text-align: center;
-}
-
-div.line {
-	margin: 3rem auto;
-	max-width: 20rem;
-	display: block;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	border-radius: 20px;
-}
 
 /*Contact Us Page*/
 div.info_box{
@@ -557,19 +551,18 @@ div.info_box{
 	margin-bottom: 2rem;
 }
 
-div.info_box_email:hover h3.email_colour_change {
-	color:#EF476F;
+/*
+div.contact-modes{
+	margin:3.5rem 0 0 4rem;
 }
+*/
 
-div.info_box_address:hover h3.address_colour_change{
-	color:#EF476F;
+div.contact_item{
+	margin-bottom:2rem;
 }
 
 div.contactus_container {
-	padding:3rem 5rem 0 5rem;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-around;
+	padding:3rem 5rem 0 10rem;
 }
 
 div.contact_support_container{
@@ -578,6 +571,14 @@ div.contact_support_container{
 	margin:0 auto;
 	margin-left: 1rem;
 	display:flex;
+}
+
+a.contact_detail {
+	color:#EF476F;
+}
+
+span.contact_mode{
+	font-weight: bold;
 }
 
 input.payment-large-field{
@@ -803,6 +804,15 @@ input#review-text {
 		
 	}
 	
+	p.feature-text{
+	font-size:4rem;
+	}
+	
+	div.feature-body{
+	left: 13%;
+	text-align: left;
+	}
+	
 	div.product-page{
 		display:flex;
 		max-width:1250px;
@@ -830,15 +840,6 @@ input#review-text {
 		padding:1rem 2rem;
 		border-radius:1rem;
 		margin-top:2rem;
-	}
-
-	div.line {
-		margin: 3rem auto;
-		max-width: 40rem;
-		display: block;
-		border-top: 3px solid black;
-		border-bottom: 3px solid black;
-		border-radius: 20px;
 	}
 
 	div.info_box{
